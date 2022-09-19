@@ -3,6 +3,7 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 :root {
@@ -37,4 +38,40 @@
   --container-width-md: 90%;
 
   --transition: all 500ms ease;
+}
+
+body {
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.7;
+  overflow-x: hidden;
+}
+
+.container {
+  width: var(--container-width-lg);
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  line-height: 1.2rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--t-color);
+}
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
 }

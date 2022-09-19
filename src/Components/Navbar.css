@@ -1,0 +1,40 @@
+nav {
+  height: 5rem;
+  width: 100vw;
+  background: var(--bg-color);
+  position: fixed;
+  display: fixed;
+  place-items: center;
+  top: 0;
+  left: 0;
+  box-shadow: 0 -3px 20px -5px;
+}
+
+.nav_container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_logo-container {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+ul {
+  display: flex;
+  gap: 3rem;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.toggleBtn {
+  display: none;
+}
