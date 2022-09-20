@@ -21,13 +21,14 @@ const Navbar = () => {
             <h4>MY <br /> PORTFOLIO</h4>
           </div>
         </HashLink>
-        <div className={`nav_links-container  ${isShowing? 'show_nav open':'hide_nav'}`}>
+        <div className={`nav_links-container  ${isShowing? 'open':''}`}>
           <ul className='nav_links' >
             {
               links.map((link, index) => {
                 return (
                   <li key={index}>
-                    <NavHashLink to={link.path}> {link.name}</NavHashLink>
+                    <NavHashLink to={link.path} 
+                    onClick={() => NavIsShowing(!isShowing)} smooth > {link.name}</NavHashLink>
                   </li>
                 )
               })

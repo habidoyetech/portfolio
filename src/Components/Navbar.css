@@ -42,6 +42,10 @@ nav {
   
 }
 
+.selected {
+  border-bottom: 2px solid var(--primary);
+}
+
 
 @media screen and (max-width: 1024px) {
   .toggleBtn {
@@ -90,5 +94,6 @@ nav {
   .nav_links li a {
     color: var(--white);
   }
+  
   
 }

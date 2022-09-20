@@ -45,6 +45,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.7;
   overflow-x: hidden;
+  background: var(--bg-primary);
+  color: var(--t-color);
 }
 
 .container {
@@ -75,4 +77,9 @@ img {
   display: block;
   object-fit: cover;
   width: 100%;
+}
+
+section {
+  height: 100vh;
+  padding-top: 5rem;
 }
