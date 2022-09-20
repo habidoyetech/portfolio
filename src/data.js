@@ -10,6 +10,10 @@ export const links = [
       path: '/#about'
   },
   {
+    name: "Skills",
+    path: "/#skills"
+  },
+  {
       name: "Porfolio",
       path: "/#portfolio"
   },
