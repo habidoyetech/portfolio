@@ -32,11 +32,20 @@ nav {
   gap: 4rem;
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
+  
 }
 
 .toggleBtn {
   display: none;
   
+}
+
+.nav_links a, .nav_logo-container h6 {
+  transition: var(--transition);
+}
+
+.nav_links a:hover, .nav_logo-container:hover h6 {
+  color: var(--first-color);
 }
 
 @media screen and (max-width: 1024px) {
