@@ -1,3 +1,7 @@
+.about {
+  width: 100vw;
+}
+
 .grid {
   display: grid;
   grid-template-columns: 1.5fr 1.5fr;
@@ -23,11 +27,12 @@
 }
 
 .about_description {
-  font-size: var(--h3-font-size);
+  font-size: var(--normal-font-size);
 }
 
 .about_contact h1 {
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
+  font-family: inherit;
 }
 
 .social {
@@ -37,16 +42,18 @@
 }
 
 .cv_button {
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
   border-radius: .5rem;
   background-color: var(--first-color);
   display: flex;
   align-items: center;
-  
+  font-family: inherit;
 }
 
 .cv_button h3 {
   color: var(--input-color);
+  font-size: var(--normal-font-size);
+  font-family: inherit;
 }
 
 .card {
@@ -107,4 +114,12 @@
 
 .hide-card {
   max-height: 0;
+}
+
+@media screen and (max-width: 980px) {
+  .grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
 }

@@ -9,10 +9,10 @@ export const links = [
       name: "About",
       path: '/#about'
   },
-  // {
-  //   name: "Skills",
-  //   path: "/#skills"
-  // },
+  {
+    name: "Qualification",
+    path: "/#skills"
+  },
   {
       name: "Porfolio",
       path: "/#portfolio"
