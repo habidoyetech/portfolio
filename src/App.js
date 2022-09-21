@@ -6,6 +6,7 @@ import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Portfolio from './Pages/Portfolio';
+import Qualification from './Pages/Qualification';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Navbar />
         <Home />
         <About />
+        <Qualification />
         <Portfolio />
         <Contact />
       </BrowserRouter>

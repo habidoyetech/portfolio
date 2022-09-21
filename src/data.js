@@ -11,7 +11,7 @@ export const links = [
   },
   {
     name: "Qualification",
-    path: "/#skills"
+    path: "/#qualification"
   },
   {
       name: "Porfolio",
