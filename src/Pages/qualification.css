@@ -1,0 +1,74 @@
+
+.title {
+  font-size: var(--h2-font-size);
+  color: var(--first-color);
+}
+
+.qualification_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.education {
+  padding: 1rem 0 1rem 0;
+}
+
+.education_header, .certification_header {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.education_card {
+  margin: 0 0 1.5rem 0;
+  z-index: 3;
+  padding-left: 2rem;
+  width: 100%;
+  position: relative;
+  border-left: .1rem solid var(--first-color);
+  cursor: pointer;
+}
+
+.education_degree {
+  font-size: var(--small-font-size);
+  color: var(--first-color);
+  height: fit-content;
+  display: flex;
+}
+
+.education_school {
+  font-size: var(--smaller-font-size);
+  color: var(--text-color-light);
+  font-weight: 300;
+  display: flex;
+}
+
+.education_card p {
+  font-size: var(--smaller-font-size);
+  color: var(--first-color-alt);
+}
+
+.education_card::after {
+  content: '';
+  border-radius: 50%;
+  width: .5rem;
+  height: .5rem;
+  border: .012rem solid var(--first-color);
+  position: absolute;
+  top: 0;
+  left: -.3rem;
+  background-color: var(--input-color);
+  transition: var(--transition);
+}
+
+.education_card:hover::after {
+  background-color: var(--first-color);
+}
+
+@media screen and (max-width: 650px) {
+  .qualification_container {
+    flex-direction: column;
+    
+  }
+  
+}

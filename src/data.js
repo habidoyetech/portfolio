@@ -124,3 +124,34 @@ export const testingToolsData = [
     description: 'jest-logo'
   }
 ]
+
+export const education = [
+  {
+    degree: 'B.Tech in Physics Electronics',
+    school: 'Federal University of Technology Akure',
+    year: 'Feb 2018 - Nov 2023'
+  },
+  {
+    degree: 'Diploma in Computer Engineering',
+    school: 'The Polytechnic of Ibadan',
+    year: 'Oct 2015 - Nov 2017'
+  }
+]
+
+export const certification = [
+  {
+    degree: 'Full Stack Web Developer',
+    school: 'Udacity',
+    year: 'Aug 2022 - Oct 2022'
+  },
+  {
+    degree: 'Javascript Essential 1',
+    school: 'Cisco Academy',
+    year: '2022'
+  },
+  {
+    degree: 'Introduction to Python',
+    school: 'Udacity',
+    year: '2022'
+  }
+]

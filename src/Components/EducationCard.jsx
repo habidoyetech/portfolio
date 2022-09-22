@@ -1,9 +1,17 @@
 import React from 'react'
 
-const EducationCard = () => {
+const EducationCard = (props) => {
   return (
-    <div className='education_card'>
-      <div></div>
+    <div className='education'>
+      {props.educationData.map((data)=> {
+        return (
+          <div className='education_card'>
+            <h2 className='education_degree'>{data.degree}</h2>
+            <h5 className='education_school'>{data.school}</h5>
+            <p>{data.year}</p>
+          </div>
+        )
+      })}
 
     </div>
   )

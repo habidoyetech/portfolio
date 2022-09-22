@@ -5,6 +5,7 @@ import {SiLinkedin} from 'react-icons/si';
 import {FaFacebookSquare} from 'react-icons/fa';
 import {FaTwitterSquare} from 'react-icons/fa';
 import {BsArrowDownCircle} from 'react-icons/bs';
+import {HiOutlinePhone, HiOutlineMail} from 'react-icons/hi'
 import CV from '../assets/Abiodun_Abidoye_CV_new.pdf'
 import Cards from '../Components/Cards';
 import { databaseData, frameworkLibraryData, languageData, testingToolsData } from '../data';
@@ -34,6 +35,8 @@ const About = () => {
             <div className='about_contact'>
               <h1>LET CONNECT</h1>
               <div className='social'>
+                <div className='phone contact'> <HiOutlinePhone/>  <p>+2348100352118</p> </div>
+                <div className='email contact'> <HiOutlineMail/>  <p>abidoyeabiodun97@gmail.com</p> </div>
                   <a href="https://www.linkedin.com/in/abiodun-abidoye-59b30a143/" target='_blank' rel='noreferrer'> <SiLinkedin />  </a>
                   <a href="https://www.linkedin.com/in/abiodun-abidoye-59b30a143/" target='_blank' rel='noreferrer'> <FaFacebookSquare />  </a>
                   <a href="https://www.linkedin.com/in/abiodun-abidoye-59b30a143/" target='_blank' rel='noreferrer'> <FaTwitterSquare />  </a>

@@ -80,6 +80,14 @@
   cursor: pointer;
 }
 
+.contact {
+  display: flex;
+}
+
+.contact p {
+  font-size: var(--smaller-font-size);
+}
+
 .card_header button h5 {
   color: var(--input-color)
 }
