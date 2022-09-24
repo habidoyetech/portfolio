@@ -24,9 +24,9 @@ const Cards = (props) => {
       </div>
       <div className={`collapse ${!isShowing ? 'hide-card':'show-card'}`}>
         <div className='card-body'>
-          {props.datas.map((data) => {
+          {props.datas.map((data, index) => {
             return (
-              <div className='tech-skill'> 
+              <div key={index} className='tech-skill'> 
                 <img src={data.image} alt={data.description} />
                 <p>{data.name}</p>
               </div>

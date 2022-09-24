@@ -3,7 +3,7 @@ import './contact.css'
 import {BiPhoneCall} from 'react-icons/bi'
 import {AiOutlineSend} from 'react-icons//ai'
 import {HiOutlineMail} from 'react-icons/hi'
-import {GrLocation} from 'react-icons/gr'
+import {MdLocationOn} from 'react-icons/md'
 
 
 const Contact = () => {
@@ -28,7 +28,7 @@ const Contact = () => {
               </div>
             </div>
             <div className='contact_information'>
-              <GrLocation className='contact_icon'/>
+              <MdLocationOn className='contact_icon'/>
               <div>
                 <h3 className='contact_title'>Location</h3>
                 <span className='contact_subtitle'> Ibadan, Oyo State </span>

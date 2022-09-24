@@ -4,9 +4,9 @@ const Project = (props) => {
   return (
     <div className='project_container'>
       {
-        props.projects.map((project) => {
+        props.projects.map((project, index) => {
           return (
-            <article className="row project">
+            <article key={index} className="row project">
               <div className="project-details">
                 <h5 className="project-title">{project.title}</h5>
                 <div className="p-details-description">

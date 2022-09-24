@@ -25,6 +25,7 @@ nav {
   border-left: var(--mb-0-25) solid var(--first-color);
   font-size: var(--smaller-font-size);
   padding: 0.25rem;
+  font-family: 'Reem Kufi Ink', sans-serif; 
 }
 
 .nav_links {

@@ -18,7 +18,7 @@ const Footer = () => {
             <a href="https://www.linkedin.com/in/abiodun-abidoye-59b30a143/" target='_blank' rel='noreferrer'> <FaTwitterSquare />  </a>
           </div>
         </div>
-         <a href="#"><p className='footer_copy'>&#169; Abiodun Abidoye, 2022</p></a>
+         <a href="https://github.com/Habidoye97" target='_blank' rel='noreferrer'><p className='footer_copy'>&#169; Abiodun Abidoye, 2022</p></a>
       </div>
     </footer>
   )
