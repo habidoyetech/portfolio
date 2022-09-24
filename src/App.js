@@ -7,6 +7,7 @@ import Contact from './Pages/Contact';
 import Home from './Pages/Home';
 import Portfolio from './Pages/Portfolio';
 import Qualification from './Pages/Qualification';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Portfolio />
         <Contact />
       </BrowserRouter>
+      <Footer />
     </div>
   )
 }

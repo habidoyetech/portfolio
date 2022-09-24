@@ -155,9 +155,59 @@ section {
 .section_subtitle {
   display: block;
   font-size: var(--small-font-size);
-  
+  margin-bottom: 2rem;
 }
 
 .section_subtitle, .section_title {
   text-align: center;
+}
+
+.button-flex {
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  padding-top: 2rem;
+  
+}
+
+.footer_container {
+  row-gap: 3.5rem;
+  color: var(--input-color);
+  text-align: center;
+}
+
+.footer_bg {
+  background-color: var(--first-color);
+  border-bottom: 2rem solid var(--first-color);
+  padding: 2rem 0 3rem;
+}
+
+.footer_title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-25);
+  color: var(--input-color);
+
+}
+
+.footer_subtitle  {
+  font-size: var(--small-font-size);
+  color: var(--input-color);
+}
+
+.footer_social {
+  color: var(--input-color);
+  font-size: var(--h1-font-size);
+}
+
+.footer_copy {
+  color: var(--input-color);
+  text-align: center;
+  transition: var(--transition);
+}
+
+.footer_copy:hover {
+  font-weight: 700;
+  
 }
