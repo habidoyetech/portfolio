@@ -4,16 +4,38 @@ import {BiPhoneCall} from 'react-icons/bi'
 import {AiOutlineSend} from 'react-icons//ai'
 import {HiOutlineMail} from 'react-icons/hi'
 import {MdLocationOn} from 'react-icons/md'
+import {send} from 'emailjs-com'
 
 
 const Contact = () => {
 
-  const [formDetials, setFormDetails] = useState({
-    name: '',
-    email: '',
-    project: '',
-    message: ''
+  const [toSend, setToSend] = useState({
+    from_name: '',
+    from_email: '',
+    from_project: '',
+    from_message: ''
   })
+
+  const handleChange = (e) => {
+    setToSend((prevState) => ({...prevState, [e.target.name]:e.target.value}))
+    
+  }
+
+  const onSubmit = event => {
+    event.preventDefault()
+    send(
+      'service_4j0qdbv',
+      'template_68qj9g2',
+      toSend,
+      'FyoWBoqXPijnocB5a'
+    ).then((response) => {
+      alert("Thanks for contacting, will reply soon")
+      console.log('SUCCESS', response.status, response.text)
+    }).catch((err) => {
+      alert ('Your message was not delivered')
+      console.log('FAILED', err)
+    })
+  }
 
   return (
     <section id='contact'>
@@ -43,27 +65,27 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <form action="" className='contact_form grid-contact'>
+          <form action=""  onSubmit={onSubmit} className='contact_form grid-contact'>
             <div className='contact_inputs grid-contact'>
               <div className="contact_content">
                 <label htmlFor="" className='contact_label' >Name</label>
-                <input type="text" className='contact_input' name='name'/>
+                <input type="text" onChange={handleChange} className='contact_input' name='from_name' value={toSend.from_name}/>
               </div>
               <div className="contact_content">
                 <label htmlFor="" className='contact_label'>Email</label>
-                <input type="text" className='contact_input' name='email'/>
+                <input type="text" onChange={handleChange} className='contact_input' name='from_email' value={toSend.from_email}/>
               </div> 
             </div>
             <div className="contact_content">
               <label htmlFor="" className='contact_label'>Project</label>
-              <input type="text" className='contact_input' name='project'/>
+              <input type="text" onChange={handleChange} className='contact_input' name='from_project'value={toSend.from_project}/>
             </div>
             <div className="contact_content">
               <label htmlFor="" className='contact_label'>Message</label>
-              <textarea name="message" id="message" cols="30" rows="10" className="contact_input"></textarea>
+              <textarea name="from_message" onChange={handleChange} id="message" cols="30" rows="10" className="contact_input" value={toSend.from_message}></textarea>
             </div>
             <div>
-              <button className='button button-flex'>
+              <button type='submit' className='button button-flex'>
                 Send Message
                 <AiOutlineSend/>
               </button>
