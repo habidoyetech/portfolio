@@ -17,16 +17,16 @@ const Project = (props) => {
                 </div>
                 <p className='p-description'>{project.description}</p>
                 <div className='p-stack'>
-                  {project.stacks.map((stack) => {
+                  {project.stacks.map((stack, index) => {
                     return (
-                      <span className='t-stack'>{stack}</span>
+                      <span key={index} className='t-stack'>{stack}</span>
                     )
                   })}
                 </div>
                 <div className='p-links'>
-                  {project.links.map((link) => {
+                  {project.links.map((link, index) => {
                     return (
-                      <a href={link.url}>{link.type}</a>
+                      <a key={index} href={link.url}>{link.type}</a>
                     )
                   })}
                 </div>

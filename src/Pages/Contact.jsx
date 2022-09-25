@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './contact.css'
 import {BiPhoneCall} from 'react-icons/bi'
 import {AiOutlineSend} from 'react-icons//ai'
@@ -7,6 +7,14 @@ import {MdLocationOn} from 'react-icons/md'
 
 
 const Contact = () => {
+
+  const [formDetials, setFormDetails] = useState({
+    name: '',
+    email: '',
+    project: '',
+    message: ''
+  })
+
   return (
     <section id='contact'>
         <h2 className='section_title'>Contack Me</h2>
@@ -38,27 +46,27 @@ const Contact = () => {
           <form action="" className='contact_form grid-contact'>
             <div className='contact_inputs grid-contact'>
               <div className="contact_content">
-                <label htmlFor="" className='contact_label'>Name</label>
-                <input type="text" className='contact_input' />
+                <label htmlFor="" className='contact_label' >Name</label>
+                <input type="text" className='contact_input' name='name'/>
               </div>
               <div className="contact_content">
                 <label htmlFor="" className='contact_label'>Email</label>
-                <input type="text" className='contact_input' />
+                <input type="text" className='contact_input' name='email'/>
               </div> 
             </div>
             <div className="contact_content">
               <label htmlFor="" className='contact_label'>Project</label>
-              <input type="text" className='contact_input' />
+              <input type="text" className='contact_input' name='project'/>
             </div>
             <div className="contact_content">
               <label htmlFor="" className='contact_label'>Message</label>
-              <textarea name="" id="" cols="30" rows="10" className="contact_input"></textarea>
+              <textarea name="message" id="message" cols="30" rows="10" className="contact_input"></textarea>
             </div>
             <div>
-              <a href="#" className="button button-flex">
+              <button className='button button-flex'>
                 Send Message
                 <AiOutlineSend/>
-              </a>
+              </button>
             </div>
           </form>
         </div>
