@@ -46,9 +46,9 @@ const About = () => {
             </div>
           </div>
           <div className='about_container skills'>
-            <Cards id='headingOne' datas={languageData} name='Languages'/>
+            <Cards id='headingOne' datas={languageData} name='Languages $ Web Technologies'/>
             <Cards id='headingtwo' datas={frameworkLibraryData} name='Framework & Library'/>
-            <Cards id='headingthree' datas={databaseData} name='CVS & Database'/>
+            <Cards id='headingthree' datas={databaseData} name='VCS & Database'/>
             <Cards id='headingfour' datas={testingToolsData} name='Testing Tools'/>
           </div> 
         </div>
