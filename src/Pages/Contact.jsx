@@ -73,17 +73,17 @@ const Contact = () => {
             <div className='contact_inputs grid-contact'>
               <div className="contact_content">
                 <label htmlFor="" className='contact_label' >Name</label>
-                <input type="text" onChange={handleChange} className='contact_input' name='from_name' value={toSend.from_name}/>
+                <input type="text" onChange={handleChange} className='contact_input' name='from_name' value={toSend.from_name} required/>
               </div>
               <div className="contact_content">
                 <label htmlFor="" className='contact_label'>Email</label>
-                <input type="text" onChange={handleChange} className='contact_input' name='from_email' value={toSend.from_email}/>
+                <input type="text" onChange={handleChange} className='contact_input' name='from_email' value={toSend.from_email} required/>
               </div> 
             </div>
             
             <div className="contact_content">
               <label htmlFor="" className='contact_label'>Message</label>
-              <textarea name="message" onChange={handleChange} id="message" cols="30" rows="10" className="contact_input" value={toSend.message}></textarea>
+              <textarea name="message" onChange={handleChange} id="message" cols="30" rows="10" className="contact_input" value={toSend.message} required></textarea>
             </div>
             <div>
               <button type='submit' className='button button-flex'>

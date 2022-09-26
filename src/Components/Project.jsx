@@ -26,7 +26,7 @@ const Project = (props) => {
                 <div className='p-links'>
                   {project.links.map((link, index) => {
                     return (
-                      <a key={index} href={link.url}>{link.type}</a>
+                      <a key={index} target='_blank' rel='noreferrer' href={link.url}>{link.type}</a>
                     )
                   })}
                 </div>

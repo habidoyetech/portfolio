@@ -20,8 +20,8 @@ const Home = () => {
             <div className='home_section-social'>
               <h4>Connet with me!!!</h4>
               <a href="https://www.linkedin.com/in/abiodun-abidoye-59b30a143/" target='_blank' rel='noreferrer'> <SiLinkedin />  </a>
-              <a href="https://www.linkedin.com/in/abiodun-abidoye-59b30a143/" target='_blank' rel='noreferrer'> <FaFacebookSquare />  </a>
-              <a href="https://www.linkedin.com/in/abiodun-abidoye-59b30a143/" target='_blank' rel='noreferrer'> <FaTwitterSquare />  </a>
+              <a href="https://web.facebook.com/abiodunpeter.abidoye.94/" target='_blank' rel='noreferrer'> <FaFacebookSquare />  </a>
+              <a href="https://twitter.com/abidoyeabiodun9" target='_blank' rel='noreferrer'> <FaTwitterSquare />  </a>
             </div>
           </div>
           <div className="home_header_details-right">

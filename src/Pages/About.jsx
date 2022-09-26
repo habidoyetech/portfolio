@@ -38,8 +38,8 @@ const About = () => {
                 <div className='phone contact'> <HiOutlinePhone/>  <p>+2348100352118</p> </div>
                 <div className='email contact'> <HiOutlineMail/>  <p>abidoyeabiodun97@gmail.com</p> </div>
                   <a href="https://www.linkedin.com/in/abiodun-abidoye-59b30a143/" target='_blank' rel='noreferrer'> <SiLinkedin />  </a>
-                  <a href="https://www.linkedin.com/in/abiodun-abidoye-59b30a143/" target='_blank' rel='noreferrer'> <FaFacebookSquare />  </a>
-                  <a href="https://www.linkedin.com/in/abiodun-abidoye-59b30a143/" target='_blank' rel='noreferrer'> <FaTwitterSquare />  </a>
+                  <a href="https://web.facebook.com/abiodunpeter.abidoye.94/" target='_blank' rel='noreferrer'> <FaFacebookSquare />  </a>
+                  <a href="https://twitter.com/abidoyeabiodun9" target='_blank' rel='noreferrer'> <FaTwitterSquare />  </a>
               </div>
               <button className='cv_button'> <a download='cv.pdf' href={CV} >
                 <h3>GET MY RESUME<BsArrowDownCircle/></h3> </a></button>

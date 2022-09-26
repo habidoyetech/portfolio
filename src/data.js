@@ -120,7 +120,7 @@ export const testingToolsData = [
   },
   {
     name: 'Jest',
-    image: require('./images/jestlogo.svg'),
+    image: require('./images/jestlogonew.png'),
     description: 'jest-logo'
   }
 ]
