@@ -42,7 +42,7 @@ const Home = () => {
                 </g>
               </svg>
               
-              {/* <img className='home_header-image' src={Image} alt="Main Header"/> */}
+             
               
             </div>
             <div className='border top-right'></div>
