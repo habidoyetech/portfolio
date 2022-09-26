@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import Image from '../images/abioduntwo.png'
+
 import {SiLinkedin} from 'react-icons/si';
 import {FaFacebookSquare} from 'react-icons/fa';
 import {FaTwitterSquare} from 'react-icons/fa';
