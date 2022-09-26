@@ -12,7 +12,6 @@ const Contact = () => {
   const [toSend, setToSend] = useState({
     from_name: '',
     from_email: '',
-    // from_project: '',
     message: ''
   })
 
@@ -38,7 +37,6 @@ const Contact = () => {
     setToSend(({
       from_name: '',
       from_email: '',
-      // from_project: '',
       message: ''
     }))
   }
@@ -82,10 +80,7 @@ const Contact = () => {
                 <input type="text" onChange={handleChange} className='contact_input' name='from_email' value={toSend.from_email}/>
               </div> 
             </div>
-            {/* <div className="contact_content">
-              <label htmlFor="" className='contact_label'>Project</label>
-              <input type="text" onChange={handleChange} className='contact_input' name='from_project'value={toSend.from_project}/>
-            </div> */}
+            
             <div className="contact_content">
               <label htmlFor="" className='contact_label'>Message</label>
               <textarea name="message" onChange={handleChange} id="message" cols="30" rows="10" className="contact_input" value={toSend.message}></textarea>

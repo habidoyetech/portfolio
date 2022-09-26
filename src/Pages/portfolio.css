@@ -94,5 +94,9 @@
   .row {
     grid-template-columns: 1fr;
   }
+
+  .p-links a {
+    margin-bottom: .5rem;
+  }
 }
 
