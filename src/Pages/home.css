@@ -100,11 +100,15 @@
   }
   
   .home_header_details-left p {
-    font-size: var(--h2-font-size);
+    font-size: var(--h1-font-size);
   }
 
   .home_header_details-right {
     display: none;
+  }
+
+  .home_section {
+    height: fit-content;
   }
 
 }
@@ -120,9 +124,4 @@
 
 }
 
-@media screen and (max-width: 431px) {
-  .home_section {
-    height: fit-content;
-  }
-  
-}
+

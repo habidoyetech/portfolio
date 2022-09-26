@@ -62,7 +62,9 @@
 }
 
 .p-links {
+  display: flex;
   margin-top: 1rem;
+  flex-wrap: wrap;
 }
 
 .p-links a {
@@ -88,8 +90,7 @@
 }
 
 
-@media screen and (max-width: 940px) {
-
+@media screen and (max-width: 1024px) {
   .row {
     grid-template-columns: 1fr;
   }
