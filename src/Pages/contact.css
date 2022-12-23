@@ -8,6 +8,9 @@
   display: grid;
 }
 
+.section_subtitle {
+  padding: 0 2rem;
+}
 .contact_container {
   row-gap: 3rem;
   grid-template-columns: 1fr 1.5fr;

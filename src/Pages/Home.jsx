@@ -15,7 +15,7 @@ const Home = () => {
             <h2>Hello, I'm Abiodun Abidoye</h2>
             <h2>I'm glad you are here</h2>
             <p>
-              I'm an experienced FullStack Web Developer. My goal is to use software engineering principles to help organizations change the world, one line of code at a time. I'm currently available for new opportunities and challenges to commit my skillsets to a worthy cause.
+              I'm an experienced Junior FullStack Web Developer. My goal is to use software engineering principles to help organizations change the world, one line of code at a time. I'm currently available for new opportunities and challenges to commit my skillsets to a worthy cause.
             </p>
             <div className='home_section-social'>
               <h4>Connet with me!!!</h4>

@@ -166,11 +166,11 @@ export const projectsList = [
     stacks: ['HTML', 'CSS', 'JAVASCRIPT'],
     links: [
       {
-        url: 'https://github.com/Habidoye97/calculator',
+        url: 'https://github.com/habidoyetech/calculator',
         type: 'View Source'
       },
       {
-        url: 'https://raw.githack.com/Habidoye97/calculator/development/index.html',
+        url: 'https://raw.githack.com/habidoyetechcalculator/development/index.html',
         type: 'Live Demo'
       }
     ],
@@ -184,7 +184,7 @@ export const projectsList = [
     stacks: ['HTML', 'CSS', 'JAVASCRIPT', 'DATE-FNS', 'WEBPACK'],
     links: [
       {
-        url: 'https://github.com/Habidoye97/weather-app',
+        url: 'https://github.com/habidoyetech/weather-app',
         type: 'View Source'
       },
       {
@@ -202,7 +202,7 @@ export const projectsList = [
     stacks: ['HTML', 'CSS', 'JAVASCRIPT'],
     links: [
       {
-        url: 'https://github.com/Habidoye97/tictactoe',
+        url: 'https://github.com/habidoyetech/tictactoe',
         type: 'View Source'
       },
       {
@@ -220,7 +220,7 @@ export const projectsList = [
     stacks: ['HTML', 'CSS', 'JAVASCRIPT'],
     links: [
       {
-        url: 'https://github.com/Habidoye97/library',
+        url: 'https://github.com/habidoyetech/library',
         type: 'View Source'
       },
       {
@@ -238,7 +238,7 @@ export const projectsList = [
     stacks: ['HTML', 'CSS', 'JAVASCRIPT', 'DATE-FNS', 'WEBPACK'],
     links: [
       {
-        url: 'https://github.com/Habidoye97/todo-list.github.io',
+        url: 'https://github.com/habidoyetech/todo-list.github.io',
         type: 'View Source'
       },
       {
@@ -257,7 +257,7 @@ export const projectsList = [
     stacks: ['HTML', 'CSS', 'REACT'],
     links: [
       {
-        url: 'https://github.com/Habidoye97/cv-project',
+        url: 'https://github.com/habidoyetech/cv-project',
         type: 'View Source'
       },
       {
@@ -275,7 +275,7 @@ export const projectsList = [
     stacks: ['HTML', 'CSS', 'REACT', 'PYTHON', 'FLASK', 'SQLAlCHEMY', 'POSGRESQL'],
     links: [
       {
-        url: 'https://github.com/Habidoye97/Fyyur-app',
+        url: 'https://github.com/habidoyetech/Fyyur-app',
         type: 'View Source'
       }
     ],
@@ -289,7 +289,7 @@ export const projectsList = [
     stacks: ['PYTHON', 'FLASK', 'SQLAlCHEMY', 'POSGRESQL'],
     links: [
       {
-        url: 'https://github.com/Habidoye97/Trivia_API',
+        url: 'https://github.com/habidoyetech/Trivia_API',
         type: 'View Source'
       }
     ],
