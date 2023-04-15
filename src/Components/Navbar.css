@@ -1,5 +1,5 @@
 nav {
-  height: var(--header-height);
+  height: 65px;
   width: 100vw;
   background: var(--bg-color);
   position: fixed;

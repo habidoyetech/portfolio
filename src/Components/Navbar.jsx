@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className='container nav_container'>
         <HashLink to='/#' smooth>
           <div className='nav_logo-container'>
-            <h6>ABBEY <br /> PORTFOLIO</h6>
+            <h6>HABIDOYE <br /> PORTFOLIO</h6>
           </div>
         </HashLink>
         <div className={`nav_links-container  ${isShowing? 'open':''}`}>
