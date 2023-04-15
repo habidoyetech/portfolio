@@ -27,12 +27,8 @@ const Home = () => {
           <div className="home_header_details-right">
             <div className="home_header-circle">
               <div className="home_header-image-container" >
-                <img src={Image}/>
+                <img src={Image} alt="Abioun"/>
               </div>
-              
-              
-             
-              
             </div>
             <div className='border top-right'></div>
             <div className='border bottom-left'></div>
