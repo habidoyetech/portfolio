@@ -8,6 +8,10 @@
   gap: 2rem;
 }
 
+.about_section {
+  padding: 3rem 0 6rem 0;
+}
+
 .about_container-details {
   display: flex;
   flex-direction: column;
@@ -86,10 +90,21 @@
 
 .contact {
   display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.contact svg {
+  font-size: var(--normal-font-size);
 }
 
 .contact p {
-  font-size: var(--smaller-font-size);
+  font-size: var(--normal-font-size);
+  cursor: pointer;
+}
+
+.social-logo {
+  font-size: var(--h4-font-size);
 }
 
 .card_header button h5 {

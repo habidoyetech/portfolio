@@ -1,13 +1,20 @@
-nav {
-  height: 65px;
+.nav {
+  height: 75px;
   width: 100vw;
-  background: var(--bg-color);
   position: fixed;
   place-items: center;
   top: 0;
   left: 0;
-  box-shadow: 0 -3px 20px -5px;
   z-index: var(--z-modal);
+}
+
+.white {
+  background: transparent;
+}
+
+.first-color {
+  background-color: var(--first-color);
+  box-shadow: 0 -3px 20px -5px;
 }
 
 .nav_container {
@@ -21,31 +28,47 @@ nav {
 .nav_logo-container {
   align-items: center;
   line-height: 1;
-  border-bottom: var(--mb-0-25) solid var(--first-color);
-  border-left: var(--mb-0-25) solid var(--first-color);
+  
   font-size: var(--smaller-font-size);
   padding: 0.25rem;
   font-family: 'Reem Kufi Ink', sans-serif; 
 }
 
+.logo-white {
+  border-bottom: var(--mb-0-25) solid var(--bg-color);
+  border-left: var(--mb-0-25) solid var(--bg-color);
+}
+
+.logo-first-color {
+  border-bottom: var(--mb-0-25) solid var(--first-color);
+  border-left: var(--mb-0-25) solid var(--first-color);
+}
+
 .nav_links {
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
   font-size: var(--small-font-size);
   font-weight: var(--font-semi-bold);
-  
+}
+
+.white-color {
+  color: var(--bg-color)
+}
+
+.text-first-color {
+  color: var(--first-color);
 }
 
 .toggleBtn {
   display: none;
-  
 }
 
 .nav_links a, .nav_logo-container h6 {
   transition: var(--transition);
+  padding: 4px;
 }
 
-.nav_links a:hover, .nav_logo-container:hover h6 {
+.nav_links a:hover, .nav_logo-container:hover h6:hover {
   color: var(--first-color);
 }
 
@@ -54,14 +77,11 @@ nav {
     display: flex;
     align-items: center;
     background: transparent;
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: var(--font-semi-bold);
     
   }
 
-  .toggleBtn svg{
-    color: var(--first-color);
-  }
 
   .nav_logo-container h4 {
     color: var(--primary);
@@ -71,9 +91,9 @@ nav {
     visibility: hidden;
     position: fixed;
     left: 100%;
-    top: var(--header-height);
-    width: 100vw;
-    height: 100vh;
+    top: 65px;
+    width: 80vw;
+    height: fit-content;
     transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
   }
 
@@ -84,13 +104,15 @@ nav {
     display: block;
     z-index: 2;
     overflow-y: auto;
-    background: var(--first-color-alt);
+    background: var(--first-color);
     font-size: var(--h2-font-size);
+    border-bottom-left-radius: 2rem;
   }
 
   .nav_links li {
-    padding-bottom: var(--header-height);
+    padding: 1.5rem 0 .5rem 0;
     color: var(--input-color);
+    border-bottom: 3px solid #fff;
   }
 
   .open {

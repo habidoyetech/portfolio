@@ -10,9 +10,10 @@ const Home = () => {
   return (
     <section className='home_section' id='home'>
       <div className='home_section-container bg_image'>
+        
         <div className='home_section-details container'>
           <div className="home_header_details-left">
-            <h2>Hello, I'm Abiodun Abidoye</h2>
+            <h2>Hello, <br/> I'm Abiodun Abidoye</h2>
             <h2>I'm glad you are here</h2>
             <p>
               I'm a Frontend Developer with knowledge and experience designing websites and online technologies. I specialize in React. <br/> My goal is to use software engineering principles to help organizations change the world, one line of code at a time. I'm currently available for new opportunities and challenges to commit my skillsets to a worthy cause.
