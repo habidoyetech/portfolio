@@ -25,12 +25,12 @@ export const links = [
 
 export const languageData = [
   {
-    name: 'HTML5', 
+    name: 'HTML', 
     image: require('./images/htmllogo.png'), 
     description: 'HTML Logo'
   },
   {
-    name: 'CSS3', 
+    name: 'CSS', 
     image: require('./images/csslogo.png'), 
     description: 'CSS Logo'
   },
@@ -125,11 +125,124 @@ export const testingToolsData = [
   }
 ]
 
+export const skills = [
+  {
+    groupName: 'Languages & Web Technologies',
+    skill: [
+      {
+        name: 'HTML', 
+        image: require('./images/htmllogo.png'), 
+        description: 'HTML Logo'
+      },
+      {
+        name: 'CSS', 
+        image: require('./images/csslogo.png'), 
+        description: 'CSS Logo'
+      },
+      {
+        name: 'Javascript', 
+        image: require('./images/javascriptlogo.png'), 
+        description: 'Javascript Logo'
+      },
+      {
+        name: 'Typescript', 
+        image: require('./images/typescriptlogo.png'), 
+        description: 'typescript Logo'
+      },
+      {
+        name: 'Python', 
+        image: require('./images/pythonlogotwo.png'), 
+        description: 'python Logo'
+      }
+    ]
+  },
+  {
+    groupName: 'Framework & Library',
+    skill: [
+      {
+        name: 'Bootstrap', 
+        image: require('./images/Bootstrap_logo.png'), 
+        description: 'bootstrap logo'
+      },
+      {
+        name: 'TailwindCSS', 
+        image: require('./images/tailwindlogo.png'), 
+        description: 'tailwindcss logo'
+      },
+      {
+        name: 'ReactJS', 
+        image: require('./images/reactlogo.webp'), 
+        description: 'reactjs logo'
+      },
+      {
+        name: 'React Redux', 
+        image: require('./images/redux.png'), 
+        description: 'react-redux-logo'
+      },
+      {
+        name: 'Flask', 
+        image: require('./images/flask.png'), 
+        description: 'flask-logo'
+      },
+      {
+        name: 'Flask-SQLAlchemy', 
+        image: require('./images/flasksqllogo.png'), 
+        description: 'python Logo'
+      }
+    ]
+  },
+  {
+    groupName: 'VCS & Database',
+    skill: [
+      {
+        name: 'Netlify', 
+        image: require('./images/netlify.png'), 
+        description: 'netlify logo'
+      },
+      {
+        name: 'Kubernetes', 
+        image: require('./images/kuberneteslogo.png'), 
+        description: 'kubernetes-logo'
+      },
+      {
+        name: 'PostgreSQL', 
+        image: require('./images/postgresqllogo.png'), 
+        description: 'postgresql-logo'
+      },
+      {
+        name: 'Firebase', 
+        image: require('./images/firebaselogo.png'), 
+        description: 'react-redux-logo'
+      },
+      {
+        name: 'Git', 
+        image: require('./images/gitlogo.png'), 
+        description: 'react-redux-logo'
+      }
+    ]
+  },
+  {
+    groupName: 'Testing Tools',
+    skill: [
+      {
+        name: 'ESLint',
+        image: require('./images/eslintlogo.png'),
+        description: 'eslint-logo'
+      },
+      {
+        name: 'Jest',
+        image: require('./images/jestlogonew.png'),
+        description: 'jest-logo'
+      }
+    ]
+  }
+]
+
 export const education = [
   {
     degree: 'B.Tech in Physics Electronics',
     school: 'Federal University of Technology Akure',
-    year: 'Feb 2018 - Nov 2023'
+    year: 'Feb 2018 - May 2023'
   },
   {
     degree: 'Diploma in Computer Engineering',
@@ -153,6 +266,20 @@ export const certification = [
     degree: 'Introduction to Python',
     school: 'Udacity',
     year: '2022'
+  }
+]
+
+export const experience = [
+  {
+    role: 'Freelancing as Frontend Developer (React)',
+    company: 'Freelance',
+    date: 'Oct 2022 till date'
+  },
+
+  {
+    role: 'Intern as Frontend Developer (React)',
+    company: 'Side Hustle',
+    date: 'Sept 2022 - Nov 2022'
   }
 ]
 

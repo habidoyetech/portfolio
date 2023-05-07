@@ -1,12 +1,16 @@
 
 .title {
-  font-size: var(--h2-font-size);
+  font-size: var(--h3-font-size);
   color: var(--first-color);
+}
+
+.qualification_section {
+  padding: 4rem 0;
 }
 
 .qualification_container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .education {
@@ -15,9 +19,22 @@
 
 .education_header, .certification_header {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
+  
 }
+
+.education_header svg, .certification_header svg {
+  font-size: 1.5rem;
+}
+
+.education_header h3, .certification_header h3 {
+  text-align: center;
+  margin-top: -.5rem;
+  
+}
+
+
 
 .education_card {
   margin: 0 0 1.5rem 0;

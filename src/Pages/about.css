@@ -24,6 +24,22 @@
   margin-bottom: var(--mb-3);
 }
 
+.MuiCardHeader-title {
+  font-size: 1rem !important;
+}
+
+.css-1qvr50w-MuiTypography-root {
+  font-size: 1rem !important;
+}
+.css-9l5vo-MuiCollapse-wrapperInner {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-evenly;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+
 .about_img {
   width: 7rem;
   height: 7rem;
@@ -126,9 +142,14 @@
   font-size: var(--smaller-font-size);
 }
 
-.tech-skill img {
+/* .tech-skill img {
   border-radius: 50%;
   width: 80%;
+} */
+
+.tech-skill-logo {
+  width: 4rem;
+  height: 70px;
 }
 
 .collapse {

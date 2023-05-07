@@ -1,17 +1,16 @@
 import React from 'react'
 import './about.css'
-
 import {SiLinkedin} from 'react-icons/si';
 import {FaFacebookSquare} from 'react-icons/fa';
 import {FaTwitterSquare} from 'react-icons/fa';
 import {BsArrowDownCircle} from 'react-icons/bs';
 import {HiOutlinePhone, HiOutlineMail} from 'react-icons/hi'
-
-import Cards from '../Components/Cards';
-import { databaseData, frameworkLibraryData, languageData, testingToolsData } from '../data';
+import SkillCard from '../Components/SkillCard';
+import { skills } from '../data';
 
 
 const About = () => {
+
 
   return (
     <section className='about' id='about' >
@@ -32,7 +31,7 @@ const About = () => {
               </p>
             </div>
             <div className='about_contact'>
-              {/* <h1>LET CONNECT</h1> */}
+              
               <div className='social'>
                 <div className='phone contact'> <HiOutlinePhone />  <p>+2348100352118</p> </div>
                 <div className='email contact'> 
@@ -48,10 +47,13 @@ const About = () => {
             </div>
           </div>
           <div className='about_container skills'>
-            <Cards id='headingOne' datas={languageData} name='Languages & Web Technologies'/>
-            <Cards id='headingtwo' datas={frameworkLibraryData} name='Framework & Library'/>
-            <Cards id='headingthree' datas={databaseData} name='VCS & Database'/>
-            <Cards id='headingfour' datas={testingToolsData} name='Testing Tools'/>
+            {
+              skills.map((group, index) => {
+                return (
+                  <SkillCard key={index} skillGroup={group} />
+                )
+              })
+            }
           </div> 
         </div>
       </div>   
