@@ -2,6 +2,7 @@
   background-color: var(--bg-color);
   height: max-content;
   width: 100vw;
+  font-family: inherit;
 }
 
 .home_section-container {
