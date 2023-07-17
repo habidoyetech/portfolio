@@ -11,7 +11,7 @@ const Navbar = ({scrollPosition}) => {
   const [isShowing, NavIsShowing] = useState(false)
 
   return (
-    <nav className={`nav ${scrollPosition < 5 ? 'white': 'first-color'}`}>
+    <nav className={`nav ${scrollPosition < 5 ? '': 'scroll-header'}`}>
       <div className='container nav_container'>
         <HashLink to='/#' smooth>
           <div className={`nav_logo-container ${scrollPosition < 5 ? 'logo-first-color': 'logo-white white-color'}`}>

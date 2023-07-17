@@ -15,24 +15,22 @@
 
   /* ========Colors=========== */
   /* change Favorite color */
-  --hue-color: 250;
+  --hue-color: 230;
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 69%, 61%);
   --first-color-alt: hsl(var(--hue-color), 57%, 61%);
   --first-color-lighter: hsl(var(--hue-color), 92%, 85%);
-  --title-color: hsl(var(--hue-color), 8%, 15%);
   --text-color: hsl(var(--hue-color), 8%, 45%);
   --text-color-light: hsl(var(--hue-color), 8%, 65%);
   --input-color: hsl(var(--hue-color), 70%, 96%);
-  --body-color: hsl(var(--hue-color), 60%, 99%);
-  
+  --body-color: hsl(var(--hue-color), 28%, 12%);
+  --title-color: hsl(var(--hue-color), 8%, 95%);
   --body-font: 'Poppins', sans-serif;
-
-  --big-font-size: 3rem;
+  --big-font-size: 2.5rem;
   --h1-font-size: 2.25rem;
   --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
+  --h3-font-size: 1.125rem;
   --normal-font-size: 1rem;
   --small-font-size: .875rem;
   --smaller-font-size: .813rem;
@@ -77,7 +75,7 @@ body {
   line-height: 1.7;
   overflow-x: hidden;
   font-size: var(--normal-font-size);
-  background: var(--bg-color);
+  background: var(--body-color);
   color: var(--text-color);
 }
 
@@ -86,11 +84,11 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5 {
-  line-height: 1.2rem;
+/* h1, h2, h3, h4, h5 {
+  
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
-}
+} */
 
 h1 {
   font-size: var(--h1-font-size);
@@ -114,8 +112,16 @@ img {
 
 section {
   height: fit-content;
-  border-radius: 1rem;
-  border-bottom: 2rem solid var(--first-color);
+  
+}
+
+
+.button {
+  background-color: var(--first-color);
+  color: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: 400;
 }
 
 .section_title {

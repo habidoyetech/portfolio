@@ -1,5 +1,4 @@
 .home_section {
-  background-color: var(--bg-color);
   height: max-content;
   width: 100vw;
   font-family: inherit;
@@ -9,47 +8,91 @@
   height: 100%;
   width: 100%;
   position: relative;
-  padding: 3rem 0 6rem 0;
+  padding: 4rem 0 4rem 0;
 }
 
-.bg_image {
-  /* background-image: url("../images/image.svg"); */
-  background-image: url("data:image/svg+xml,<svg id='patternId' width='100%' height='100%' xmlns='http://www.w3.org/2000/svg'><defs><pattern id='a' patternUnits='userSpaceOnUse' width='60' height='60' patternTransform='scale(6) rotate(0)'><rect x='0' y='0' width='100%' height='100%' fill='hsla(0,0%,100%,1)'/><path d='M29.998 26.65v6.693zm-6.837 3.347h3.488zm10.185 0h3.489zm0 0a3.349 3.346 0 01-3.348 3.346 3.349 3.346 0 01-3.349-3.346 3.349 3.346 0 013.349-3.346 3.349 3.346 0 013.348 3.346zm-3.173-6.832c-1.978-.032-3.976.786-5.29 2.287-1.986 2.163-2.275 5.629-.727 8.113 1.45 2.442 4.522 3.736 7.287 3.116 3.067-.607 5.45-3.561 5.392-6.684.045-2.643-1.642-5.173-4.042-6.245a6.489 6.489 0 00-2.62-.587zM59.995 52.87v14.25zm-14.557 7.125h7.428zm21.687 0h7.427zm0 0a7.13 7.124 0 01-7.13 7.124 7.13 7.124 0 01-7.13-7.124 7.13 7.124 0 017.13-7.125 7.13 7.124 0 017.13 7.125zm-6.757-14.547c-4.212-.069-8.465 1.673-11.262 4.869-4.23 4.606-4.845 11.985-1.55 17.274 3.09 5.2 9.628 7.954 15.517 6.635 6.53-1.292 11.604-7.583 11.48-14.231.096-5.628-3.495-11.014-8.606-13.298-1.757-.813-3.665-1.217-5.58-1.249zM-.005 52.87v14.25zm-14.557 7.125h7.428zm21.687 0h7.427zm0 0a7.13 7.124 0 01-7.13 7.124 7.13 7.124 0 01-7.13-7.124 7.13 7.124 0 017.13-7.125 7.13 7.124 0 017.13 7.125zM.368 45.447c-4.212-.069-8.465 1.673-11.262 4.869-4.23 4.606-4.845 11.985-1.55 17.274 3.09 5.2 9.628 7.954 15.517 6.635 6.53-1.292 11.604-7.583 11.48-14.231.096-5.628-3.495-11.014-8.606-13.298-1.757-.813-3.665-1.217-5.58-1.249zM59.995-7.13V7.12zM45.438-.006h7.428zm21.687 0h7.427zm0 0a7.13 7.124 0 01-7.13 7.124 7.13 7.124 0 01-7.13-7.124 7.13 7.124 0 017.13-7.125 7.13 7.124 0 017.13 7.125zm-6.757-14.547c-4.212-.069-8.465 1.673-11.262 4.869C44.876-5.078 44.26 2.3 47.556 7.59c3.09 5.2 9.628 7.954 15.517 6.635 6.53-1.292 11.604-7.583 11.48-14.231.096-5.628-3.495-11.014-8.606-13.298-1.757-.813-3.665-1.217-5.58-1.249zM-.005-7.13V7.12zM-14.562-.006h7.428zm21.687 0h7.427zm0 0a7.13 7.124 0 01-7.13 7.124 7.13 7.124 0 01-7.13-7.124 7.13 7.124 0 017.13-7.125 7.13 7.124 0 017.13 7.125zM.368-14.553c-4.212-.069-8.465 1.673-11.262 4.869-4.23 4.606-4.845 11.985-1.55 17.274 3.09 5.2 9.628 7.954 15.517 6.635 6.53-1.292 11.604-7.583 11.48-14.231.096-5.628-3.495-11.014-8.606-13.298-1.757-.813-3.665-1.217-5.58-1.249z'  stroke-width='1' stroke='hsla(250, 69%, 61%, 0.1)' fill='none'/></pattern></defs><rect width='800%' height='800%' transform='translate(-720,0)' fill='url(%23a)'/></svg>");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-}
-
-
-
-
-
-#sw-js-blob-svg {
-  position: absolute;
-  bottom: -2rem;
-  left: -4rem;
-  z-index: 0;
+.home__social {
+  
+  display: grid;
+  grid-template-columns: max-content;
+  row-gap: 1rem;
 }
 
 
 .home_section-details {
   padding-top: 3rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   place-items: center;
   height: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  grid-template-columns: .5fr 3fr;
 }
 
 .home_header-image-container {
   background-color: var(--first-color);
   height: fit-content;
   overflow: hidden;
-  border-top-left-radius: 10rem;
-  border-bottom-right-radius: 10rem;
+  border-top-left-radius: 100px;
+  border-bottom-right-radius: 100px;
 }
 
 .home_header_details-right {
   position: relative;
+}
+
+.button-flex {
+  display: inline-flex;
+  align-items: center;
+}
+
+.button__icon {
+  font-size: 1.25rem;
+  margin-left: var(--mb-0-5);
+
+}
+
+.home__title {
+  font-size: var(--big-font-size);
+  color: var(--title-color);
+  line-height: 2.5rem;
+}
+
+.home__subtitle {
+  padding-top: 1rem;
+  color: var(--text-color);
+  font-size: var(--h3-font-size);
+}
+
+.home__social-icon {
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
+
+
+.typetext {
+  color: var(--first-color);
+}
+
+.blink {
+  color: var(--title-color);
+  animation: blink-animation 0.1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+.inline {
+  display: inline;
 }
 
 .border {
@@ -72,11 +115,10 @@
   border-bottom: var(--mb-0-25) solid var(--first-color);
 }
 
-.home_header_details-left h2 {
-  line-height: 1.5;
-  font-size: var(--h2-font-size);
-  color: var(--text-color);
+.home_header_details-left {
+  grid-column: 1/3;
 }
+
 
 .home_header_details-left p {
   line-height: 1.5;
@@ -115,19 +157,27 @@
   top: 2rem;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
+  /* .home__social {
+    transform: translateX(-1rem);
+  } */
+
   .home_section-details {
-    display: flex;
-    position: relative;
-    flex-direction: column-reverse;
-    
+    gap: 5rem;
   }
 
-  .home_header_details-left h2 {
-    font-size: var(--h1-font-size);
+  .home_section-container {
+    padding: 8rem 0;
   }
+}
+
+
+@media screen and (max-width: 1024px) {
+
   
-  .home_header_details-left p {
+  
+
+  .home_header_details-left h2 {
     font-size: var(--h1-font-size);
   }
 
@@ -142,17 +192,32 @@
 
 }
 
-@media screen and (max-width: 600px) {
-  .home_header_details-left h2 {
-    font-size: var(--h1-font-size);
-    text-align: center;
+@media screen and (min-width: 580px) {
+  .home__social-icon {
+    font-size: 1.30rem;
+  }
+  
+  .home_section-details {
+    grid-template-columns: max-content 1fr 1fr;
   }
 
-  .home_header_details-left p {
-    font-size: var(--h2-font-size);
-    text-align: center;
+  .home_header_details-left {
+    grid-column: 2;
   }
 
+  .home_header_details-right {
+    order: 1;
+    justify-self: center;
+    align-self: center;
+  }
 }
+
+/* @media screen and (max-width: 567px) {
+  .home_section-details {
+    grid-template-columns: max-content 1fr;
+  }
+
+} */
+
 
 
