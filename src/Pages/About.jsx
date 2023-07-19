@@ -19,7 +19,7 @@ const About = () => {
         <div className="about_container grid">
           <div className='about_container-details'>
             <div className='about_data'>
-              <p className='about_description'>
+              <p className='about_description'> 
                 I'm a <strong> Frontend Developer </strong> with knowledge and experience designing websites and online technologies. I specialize in  <strong> React. </strong> <br />
 
                 You're looking at the Portfolio of a <strong>Frontend Developer (React, NestJs),</strong>  I also have some project experience of Python Flask, Postgres and SQL Alchemy <br />
@@ -31,7 +31,6 @@ const About = () => {
               </p>
             </div>
             <div className='about_contact'>
-              
               <div className='social'>
                 <div className='phone contact'> <HiOutlinePhone />  <p>+2348100352118</p> </div>
                 <div className='email contact'> 

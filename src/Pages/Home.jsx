@@ -45,7 +45,7 @@ const Home = () => {
             <p>
               I have knowledge and experience designing websites and online technologies. I specialize in React.
             </p>
-            <a href="http://wa.me/2348100352118" target="_blank" class="button button-flex"> Hire Me
+            <a href="http://wa.me/2348100352118" target="_blank" class="button button-flex" rel='noreferrer'> Hire Me
 							<i className="uil uil-message button__icon"></i>
 						</a>
           </div>
