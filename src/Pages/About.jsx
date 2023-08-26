@@ -48,9 +48,9 @@ const About = () => {
                       <span className="about__info-name">Helped<br/> Companies</span>
                   </div>
                 </div>
-                <div class="about__buttons">
+                <div className="about__buttons">
                   <a href="https://drive.google.com/file/d/1El1L6Jix7hDoTh9bKtz0C0evjc3wxQQx/view?usp=sharing" download="" rel='noreferrer' className="button button--flex">Download CV
-                    <i class="uil uil-download-alt button__icon"></i>
+                    <i className="uil uil-download-alt button__icon"></i>
                   </a>
                 </div>
               </div>

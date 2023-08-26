@@ -3,23 +3,34 @@
 export const links = [
   {
       name: "Home",
-      path: '/#home'
+      path: '/#home',
+      idName: 'home'
   },
   {
       name: "About",
-      path: '/#about'
+      path: '/#about',
+      idName: 'about'
+  },
+  {
+    name: "Skills",
+    path: '/#skills',
+    idName: 'skills'
   },
   {
     name: "Qualification",
-    path: "/#qualification"
+    path: "/#qualification",
+    idName: 'qualification'
   },
   {
       name: "Porfolio",
-      path: "/#portfolio"
+      path: "/#portfolio",
+      idName: 'porfolio'
+
   },
   {
       name: "Contact",
-      path: '/#contact'
+      path: '/#contact',
+      idName: 'contact'
   }
 ]
 

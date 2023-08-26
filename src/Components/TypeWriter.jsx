@@ -20,12 +20,11 @@ const TypeWriter = ({text, delay}) => {
       }
       
     } else {
-      console.log(text)
-      console.log(deleteIndex)
+      
       if (deleteIndex === 0) {
         setCurrentIndex(0)
       }
-      console.log(currentText)
+      
       timeout = setTimeout(() => {
         setCurrentText(prevText => prevText.slice(0, -1));
         setDeleteIndex(prevIndex => prevIndex - 1);

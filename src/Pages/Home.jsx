@@ -2,9 +2,29 @@ import React from 'react'
 import './home.css';
 import Image from '../images/abiodunnew.png'
 import TypeWriter from '../Components/TypeWriter';
+import { useEffect } from 'react';
+import { useState } from 'react';
 
 
 const Home = () => {
+
+  const [screenWidth, setScreenWidth] = useState(0)
+  console.log(screenWidth)
+
+  useEffect(() => {
+
+    function resizeWidth () {
+      setScreenWidth(document.documentElement.clientWidth)
+    }
+
+    window.addEventListener("resize", resizeWidth);
+
+    return () => {
+      window.removeEventListener("resize", resizeWidth);
+    };
+    
+  }, [])
+
   return (
     <section className='home_section' id='home'>
       <div className='home_section-container'>
@@ -38,14 +58,15 @@ const Home = () => {
           </div>
           <div className="home_header_details-left">
             <h2 className='home__title inline'>Hello, I'm Abiodun</h2>
-            <h5 className='home__subtitle'>I'm a creative 
+            <h5 className='home__subtitle'>I'm a creative
+              {screenWidth < 895 ? <br />: '' }
               <TypeWriter text=' Frontend Developer' delay={200} />
               <span className='blink'>|</span>
             </h5>
             <p>
               I have knowledge and experience designing websites and online technologies. I specialize in React.
             </p>
-            <a href="http://wa.me/2348100352118" target="_blank" class="button button-flex" rel='noreferrer'> Hire Me
+            <a href="http://wa.me/2348100352118" target="_blank" className="button button-flex" rel='noreferrer'> Hire Me
 							<i className="uil uil-message button__icon"></i>
 						</a>
           </div>

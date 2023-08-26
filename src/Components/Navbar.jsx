@@ -1,14 +1,42 @@
 import React, { useState } from 'react'
-import { HashLink } from 'react-router-hash-link'
+import { HashLink } from 'react-router-hash-link';
 import { links } from '../data'
 import {HiOutlineMenuAlt1} from 'react-icons/hi';
 import {MdOutlineClose} from 'react-icons/md';
-import './Navbar.css'
+import './Navbar.css';
+import { useEffect } from 'react';
 
 
 const Navbar = ({scrollPosition}) => {
 
-  const [isShowing, NavIsShowing] = useState(false)
+  const [isShowing, NavIsShowing] = useState(false);
+  
+  useEffect(() => {
+    const sections = document.querySelectorAll("section");
+    const navLink = document.querySelectorAll('.navlink')
+    console.log(sections)
+    console.log(navLink)
+
+    window.onscroll = () => {
+      let current = "";
+    
+      sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        if (window.pageYOffset >= sectionTop - 60) {
+          current = section.getAttribute("id"); 
+        }
+
+      });
+
+      navLink.forEach((li) => {
+        li.classList.remove("active");
+        if (li.classList.contains(current)) {
+          li.classList.add("active");
+        }
+      });
+      console.log(current)
+    }
+  }, [])
 
   return (
     <nav className={`nav ${scrollPosition < 5 ? '': 'scroll-header'}`}>
@@ -24,9 +52,12 @@ const Navbar = ({scrollPosition}) => {
               links.map((link, index) => {
                 return (
                   <li key={index} onClick={() => NavIsShowing(!isShowing)}>
-                    <HashLink className={`${scrollPosition < 5 ? '': 'white-color'}`} to={link.path} 
-                    
-                     smooth > {link.name}</HashLink>
+                    <HashLink 
+                      className={`navlink ${link.idName}`}
+                      to={link.path}
+                     smooth>
+                     {link.name}
+                    </HashLink>
                   </li>
                 )
               })
