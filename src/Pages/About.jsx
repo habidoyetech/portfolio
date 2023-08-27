@@ -1,12 +1,5 @@
 import React from 'react'
 import './about.css'
-import {SiLinkedin} from 'react-icons/si';
-import {FaFacebookSquare} from 'react-icons/fa';
-import {FaTwitterSquare} from 'react-icons/fa';
-import {BsArrowDownCircle} from 'react-icons/bs';
-import {HiOutlinePhone, HiOutlineMail} from 'react-icons/hi'
-import SkillCard from '../Components/SkillCard';
-import { skills } from '../data';
 import AbiodunPassport from '../images/abiodunpassport.png'
 
 

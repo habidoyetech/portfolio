@@ -8,6 +8,7 @@ import Home from './Pages/Home';
 // import Portfolio from './Pages/Portfolio';
 import Qualification from './Pages/Qualification';
 import Footer from './Components/Footer';
+import Skills from './Pages/Skills';
 
 const App = () => {
 
@@ -33,6 +34,7 @@ const App = () => {
         <Navbar  scrollPosition={scrollPosition} />
         <Home />
         <About />
+        <Skills />
         <Qualification />
         {/* <Portfolio /> */}
         <Contact />

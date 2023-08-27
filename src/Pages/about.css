@@ -176,25 +176,6 @@
   cursor: pointer;
 }
 
-.contact {
-  display: flex;
-  align-items: center;
-  gap: .5rem;
-}
-
-.contact svg {
-  font-size: var(--normal-font-size);
-}
-
-.contact p {
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-}
-
-.social-logo {
-  font-size: var(--h4-font-size);
-}
-
 .card_header button h5 {
   color: var(--input-color)
 }

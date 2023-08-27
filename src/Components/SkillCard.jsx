@@ -36,8 +36,8 @@ const SkillCard = ({skillGroup}) => {
   
   return (
     <>
-      <Card sx={{backgroundColor: 'hsl(250, 69%, 61%)', borderRadius:'10px', marginBottom:'1rem'}}>
-        <CardHeader onClick={displayCard} sx={{color: '#fff', paddingY: '3px', cursor:'pointer'}}
+      <Card>
+        <CardHeader onClick={displayCard}
           title={skillGroup.groupName}
           action= {
             <ExpandMore
@@ -55,7 +55,7 @@ const SkillCard = ({skillGroup}) => {
             return (
               <Box key={index} sx={{ backgroundColor:'#fff', display:'flex', flexDirection:'column', alignItems:'center', borderRadius:'10px', paddingY:'8px', paddingX:'8px', boxShadow:'0px 0px 20px 5px rgba(0,0,0,0.1), 0px 15px 15px -3px rgba(0,0,0,0.1)'}}>
                 <h4>{language.name}</h4>
-                <img className='tech-skill-logo' src={language.image} alt={language.description} />
+                {/* <img className='tech-skill-logo' src={language.image} alt={language.description} /> */}
               </Box>
             )
           })}

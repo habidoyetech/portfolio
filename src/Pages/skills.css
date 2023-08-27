@@ -1,0 +1,99 @@
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.skills__container {
+    row-gap: 0;
+    color: #fff;
+}
+
+.skills__title {
+    font-size: 1.5rem;
+}
+
+.skills__header {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--mb-2-5);
+    cursor: pointer;
+}
+
+.skills__icon {
+    margin-right: 0.75rem;
+
+}
+
+.skills__arrow {
+    margin-left: auto;
+    transition: all .4s;
+}
+
+.skills__icon, .skills__arrow {
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.uil-brackets-curly:before {
+    content: '\ec50';
+}
+
+.uil-server-network-alt:before {
+    content: '\ea2c';
+}
+
+[class^=uil-]:before, [class*=" uil-"]:before {
+    font-family: unicons-line;
+    font-style: normal;
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: inherit;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.rotate {
+    rotate: 180deg;
+}
+
+.skills__list {
+    height: max-content;
+    margin-bottom: var(--mb-2-5);
+    row-gap: 1.5rem;
+    
+}
+
+.css-9l5vo-MuiCollapse-wrapperInner {
+    padding: 0;
+}
+
+.css-9l5vo-MuiCollapse-wrapperInner {
+    display: block;
+    padding-left: 2.5rem;
+}
+
+
+.skills__titles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--mb-0-5);
+}
+
+.skills__bar {
+    background-color: var(--first-color);
+}
+
+.skills__bar, .skills__percentage {
+    height: 1.5px;
+    border-radius: 0.25rem;
+}
+
+@media screen and (min-width: 568px) {
+    .skills__container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
