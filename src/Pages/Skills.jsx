@@ -131,9 +131,9 @@ const Skills = () => {
                         <span className="skills__subtitle">With 1+ years of experience</span>
                     </div>
 
-                    <i className={`uil uil-angle-down skills__arrow ${displayBackend? 'rotate': ''}`}></i>
+                    <i className={`uil uil-angle-down skills__arrow ${backendIsShowing? 'rotate': ''}`}></i>
                 </div>
-                <Collapse in={isShowing} >
+                <Collapse in={backendIsShowing} >
                     <div className="skills__list grid">
                         <div className="skills__data">
                             <div className="skills__titles">
