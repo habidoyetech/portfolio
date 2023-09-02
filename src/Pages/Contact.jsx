@@ -51,7 +51,7 @@ const Contact = () => {
               <BiPhoneCall className='contact_icon'/>
               <div>
                 <h3 className='contact_title'>Call Me</h3>
-                <span className='contact_subtitle'> +2348100352118 </span>
+                <span className='contact_subtitle'>+2348100352118 </span>
               </div>
             </div>
             <div className='contact_information'>
