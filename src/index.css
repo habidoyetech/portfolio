@@ -61,7 +61,7 @@
     --h1-font-size: 1.5rem;
     --h2-font-size: 1.25rem;
     --h3-font-size: 1.125rem;
-    --normal-font-size: .938rem;
+    --normal-font-size: 1rem;
     --small-font-size: .813rem;
     --smaller-font-size: .75rem;
   }
@@ -126,9 +126,9 @@ img {
 
 section {
   height: fit-content;
-  
+  display: grid;
+  justify-content: center;
 }
-
 
 .button {
   background-color: var(--first-color);
@@ -139,7 +139,6 @@ section {
 }
 
 .section_title {
-  
   font-size: var(--h1-font-size);
   color: #fff;
 }

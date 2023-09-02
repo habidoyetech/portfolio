@@ -250,16 +250,28 @@ export const skills = [
 ]
 
 export const education = [
+  
   {
     degree: 'B.Tech in Physics Electronics',
     school: 'Federal University of Technology Akure',
-    year: 'Feb 2018 - May 2023'
+    date: 'Feb 2018 - In View'
+  },
+  
+  {
+    degree: 'Full Stack Web Developer',
+    school: 'Udacity Nano-Degree Program',
+    date: 'July 2022 - Oct. 2022'
+  },
+  {
+    degree: 'Javascript Essential 1',
+    school: 'Cisco Academy',
+    date: '2022'
   },
   {
     degree: 'Diploma in Computer Engineering',
     school: 'The Polytechnic of Ibadan',
-    year: 'Oct 2015 - Nov 2017'
-  }
+    date: 'Oct 2015 - Nov 2017'
+  },
 ]
 
 export const certification = [
@@ -282,13 +294,17 @@ export const certification = [
 
 export const experience = [
   {
-    role: 'Freelancing as Frontend Developer (React)',
+    role: 'React Developer ',
     company: 'Freelance',
     date: 'Oct 2022 till date'
   },
-
   {
-    role: 'Intern as Frontend Developer (React)',
+    role: 'Frontend Developer',
+    company: 'Extramile Africa',
+    date: 'Jan 2023 - Mar 2023'
+  },
+  {
+    role: 'Intern Frontend Developer',
     company: 'Side Hustle',
     date: 'Sept 2022 - Nov 2022'
   }
