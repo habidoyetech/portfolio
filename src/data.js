@@ -454,4 +454,4 @@ export const projectsList = [
 
 export const frontendSkills = ['HTML', 'CSS', 'BOOTSTRAP', 'Tailwind CSS', 'SCSS', 'Javascript', 'ReactJS', 'NextJS', 'React Redux', 'SEO Optimization']
 
-export const backendSkills = ['Phython', 'Flask', 'NodeJS', 'Postgres']
+export const backendSkills = ['Python', 'Flask', 'NodeJS', 'Postgres']
