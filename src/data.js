@@ -22,9 +22,9 @@ export const links = [
     idName: 'qualification'
   },
   {
-      name: "Porfolio",
+      name: "Portfolio",
       path: "/#portfolio",
-      idName: 'porfolio'
+      idName: 'portfolio'
 
   },
   {
@@ -313,141 +313,62 @@ export const experience = [
 
 export const projectsList = [
   {
-    title: 'Calculator',
-    type: 'Frontend',
-    year: '2021',
-    description: 'This is a simple calculator application that performs basic arithmetic operations like addition, division, multiplication, subtraction, and percentage. It is built with HTML, CSS, and JavaScript.',
-    stacks: ['HTML', 'CSS', 'JAVASCRIPT'],
-    links: [
-      {
-        url: 'https://github.com/habidoyetech/calculator',
-        type: 'View Source'
-      },
-      {
-        url: 'https://raw.githack.com/habidoyetechcalculator/development/index.html',
-        type: 'Live Demo'
-      }
-    ],
-    image: require('./images/calculator.png')
+    id: 1,
+    title: 'Modern Responsive Website',
+    description: "Modern Responsive Website built for Blessing Edmonton Ministries, a christian center based in Canada with adaptable UI",
+    image:require('./images/edmonton.png'),
+    links: {
+      demoLink: 'wwww.blessingedmonton.ca',
+    }
   },
   {
+    id: 2,
+    title: 'Responsive Landing Page for ExtramileAfrica',
+    description: "Extramile Africa offers Access Now Pay Later to help underserved consumers and MSMEs in Africa access and use non-consumable items on credit, with a 30% down-payment and spread payment over a period of time, while they gain full ownership of the asset.",
+    image:require('./images/extramileAfrica.png'),
+    links: {
+      demoLink: 'wwww.extramile.africa',
+    }
+  },
+  { 
+    id: 3,
     title: 'Weather App',
-    type: 'Frontend',
-    year: '2022',
-    description: 'This is a Weather App built with JavaScript & Webpack. The project comes at the end of the Asynchronous Javascript and APIs section of my Javascript course. It tests my knowledge about asynchronous communication with promises or async/await and when to use them. I used the Open Weather API to consume the weather details. I also processed the data fetched from the API to render in both Celcius & Fahrenheit. The background changes based on the atmospheric condition of the location provided.',
-    stacks: ['HTML', 'CSS', 'JAVASCRIPT', 'DATE-FNS', 'WEBPACK'],
-    links: [
-      {
-        url: 'https://github.com/habidoyetech/weather-app',
-        type: 'View Source'
-      },
-      {
-        url: 'https://habidoye-weather-app.netlify.app/',
-        type: 'Live Demo'
-      }
-    ],
+    description: 'This is a Weather App built with JavaScript & Webpack. The project comes at the end of the Asynchronous Javascript and APIs section of my Javascript course.',  
+    links: {
+      demoLink: 'https://habidoye-weather-app.netlify.app/',
+      github: 'https://github.com/habidoyetech/weather-app'
+    },
     image: require('./images/weatherapp.png')
   },
   {
+    id: 4,
     title: 'TIC TAC TOE GAME',
-    type: 'Frontend',
-    year: '2022',
     description: 'This is a game for two players, X and O. The player who succeeds in placing three of their marks in a horizontal, veritcal or diagonal row is the winner',
-    stacks: ['HTML', 'CSS', 'JAVASCRIPT'],
-    links: [
-      {
-        url: 'https://github.com/habidoyetech/tictactoe',
-        type: 'View Source'
-      },
-      {
-        url: 'https://raw.githack.com/Habidoye97/tictactoe/development/index.html',
-        type: 'Live Demo'
-      }
-    ],
+    links: {
+      demoLink: 'https://raw.githack.com/Habidoye97/tictactoe/development/index.html',
+      github: 'https://github.com/habidoyetech/tictactoe'
+    },
     image: require('./images/tictac.png')
   },
   {
+    id: 5,
     title: 'LIBRARY',
-    type: 'Frontend',
-    year: '2022',
     description: 'This Library App allows you to put the details of a book and save it in Local Storage. The goal of this project is to understand Object and Object Constructors',
-    stacks: ['HTML', 'CSS', 'JAVASCRIPT'],
-    links: [
-      {
-        url: 'https://github.com/habidoyetech/library',
-        type: 'View Source'
-      },
-      {
-        url: 'https://raw.githack.com/Habidoye97/library/development/index.html',
-        type: 'Live Demo'
-      }
-    ],
+    links: {
+      demoLink: 'https://raw.githack.com/Habidoye97/library/development/index.html',
+      github: 'https://github.com/habidoyetech/library'
+    },
     image: require('./images/library.png')
   },
   {
+    id: 6,
     title: 'TODO APP',
-    type: 'Frontend',
-    year: '2022',
     description: 'The project provides a simple Todo List application by dividing Todos into categories (projects). For each of the categories, users can add zero or more Todos. Todos can also be created, updated or deleted.',
-    stacks: ['HTML', 'CSS', 'JAVASCRIPT', 'DATE-FNS', 'WEBPACK'],
-    links: [
-      {
-        url: 'https://github.com/habidoyetech/todo-list.github.io',
-        type: 'View Source'
-      },
-      {
-        url: 'https://habidoye-todo-list-app.netlify.app/',
-        type: 'Live Demo'
-      }
-    ],
+    links: {
+      demoLink: 'https://habidoye-todo-list-app.netlify.app/',
+      github: 'https://github.com/habidoyetech/todo-list.github.io'
+    },
     image: require('./images/todopage.png')
-  },
-  
-  {
-    title: 'CV CREACTOR',
-    type: 'Frontend',
-    year: '2022',
-    description: 'This Website is a simple resume creator, it allows you to create a professional resume which can be downloaded on your device in PDF format',
-    stacks: ['HTML', 'CSS', 'REACT'],
-    links: [
-      {
-        url: 'https://github.com/habidoyetech/cv-project',
-        type: 'View Source'
-      },
-      {
-        url: 'https://habidoye-cv-creator.netlify.app/',
-        type: 'Live Demo'
-      }
-    ],
-    image: require('./images/resume.png')
-  },
-  {
-    title: 'FYYUR',
-    type: 'Fullstack',
-    year: '2022',
-    description: 'Fyyur is a musical venue and artist booking site that facilitates the discovery and bookings of shows between local performing artists and venues. This site lets you list new artists and venues, discover them, and list shows with artists as a venue owner.',
-    stacks: ['HTML', 'CSS', 'REACT', 'PYTHON', 'FLASK', 'SQLAlCHEMY', 'POSGRESQL'],
-    links: [
-      {
-        url: 'https://github.com/habidoyetech/Fyyur-app',
-        type: 'View Source'
-      }
-    ],
-    image: require('./images/fyyur.png')
-  },
-  {
-    title: 'TRIVIA API',
-    type: 'BACKEND',
-    year: '2022',
-    description: 'I built the API for the website to Display questions - both all questions and by category, delete questions, add questions and require that they include question and answer text, search for questions based on a text query string, play the quiz game, randomizing either all questions or within a specific category.',
-    stacks: ['PYTHON', 'FLASK', 'SQLAlCHEMY', 'POSGRESQL'],
-    links: [
-      {
-        url: 'https://github.com/habidoyetech/Trivia_API',
-        type: 'View Source'
-      }
-    ],
-    image: require('./images/trivia.png')
   }
 ]
 

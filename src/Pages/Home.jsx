@@ -53,13 +53,13 @@ const Home = () => {
                 <img src={Image} alt="Abiodun"/>
               </div>
             </div>
-            <div className='border top-right'></div>
-            <div className='border bottom-left'></div> 
+            <div className='picture-border top-right'></div>
+            <div className='picture-border bottom-left'></div> 
           </div>
           <div className="home_header_details-left">
             <h2 className='home__title inline'>Hello, I'm Abiodun</h2>
             <h5 className='home__subtitle'>I'm a creative
-              {screenWidth < 895 ? <br />: '' }
+              {screenWidth < 895 && screenWidth > 0 ? <br />: '' }
               <TypeWriter text=' Frontend Developer' delay={200} />
               <span className='blink'>|</span>
             </h5>

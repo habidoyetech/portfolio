@@ -5,7 +5,7 @@ import Navbar from './Components/Navbar';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Home from './Pages/Home';
-// import Portfolio from './Pages/Portfolio';
+import Portfolio from './Pages/Portfolio';
 import Qualification from './Pages/Qualification';
 import Footer from './Components/Footer';
 import Skills from './Pages/Skills';
@@ -36,7 +36,7 @@ const App = () => {
         <About />
         <Skills />
         <Qualification />
-        {/* <Portfolio /> */}
+        <Portfolio />
         <Contact />
       </BrowserRouter>
       <Footer />

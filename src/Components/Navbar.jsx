@@ -43,7 +43,7 @@ const Navbar = ({scrollPosition}) => {
       <div className='container nav_container'>
         <HashLink to='/#' smooth>
           <div className={`nav_logo-container ${scrollPosition < 5 ? 'logo-first-color': 'logo-white white-color'}`}>
-            <h6>HABIDOYE'S <br /> Portfolio</h6>
+            <h6 className='text-[10px] font-semibold'>HABIDOYE'S <br /> Portfolio</h6>
           </div>
         </HashLink>
         <div className={`nav_links-container  ${isShowing? 'open':''}`}>
