@@ -9,7 +9,7 @@ import { useState } from 'react';
 const Home = () => {
 
   const [screenWidth, setScreenWidth] = useState(0)
-  console.log(screenWidth)
+  
 
   useEffect(() => {
 
@@ -36,13 +36,13 @@ const Home = () => {
             <a href="https://twitter.com/" target="_blank" className="home__social-icon" rel='noreferrer'>
               <i className="uil uil-twitter-alt"></i>
             </a>
-            <a href="https://linkedin.com/in" target="_blank" className="home__social-icon" rel='noreferrer'>
+            <a href="https://www.linkedin.com/in/abiodun-abidoye-59b30a143/" target="_blank" className="home__social-icon" rel='noreferrer'>
               <i className="uil uil-linkedin"></i>
             </a>
             <a href="https://wa.me/+2348100352118" target="_blank" className="home__social-icon" rel='noreferrer'>
                 <i className="uil uil-whatsapp"></i>
             </a>
-            <a href="https://github.com/" target="_blank" className="home__social-icon" rel='noreferrer'>
+            <a href="https://github.com/habidoyetech" target="_blank" className="home__social-icon" rel='noreferrer'>
                 <i className="uil uil-github"></i>
             </a>
           </div>
@@ -57,13 +57,13 @@ const Home = () => {
             <div className='picture-border bottom-left'></div> 
           </div>
           <div className="home_header_details-left">
-            <h2 className='home__title inline'>Hello, I'm Abiodun</h2>
-            <h5 className='home__subtitle'>I'm a creative
+            <h2 className='home__title inline font-semibold font-mons'>Hello, I'm Abiodun</h2>
+            <h5 className='home__subtitle font-mons'>I'm a creative
               {screenWidth < 895 && screenWidth > 0 ? <br />: '' }
               <TypeWriter text=' Frontend Developer' delay={200} />
               <span className='blink'>|</span>
             </h5>
-            <p>
+            <p className='font-mons'>
               I have knowledge and experience designing websites and online technologies. I specialize in React.
             </p>
             <a href="http://wa.me/2348100352118" target="_blank" className="button button-flex" rel='noreferrer'> Hire Me

@@ -16,7 +16,7 @@ const About = () => {
             <div className='about_img_description'>
               <div className='about_image_container'><img src={AbiodunPassport} alt='Abiodun Passport'/></div>
               <div className='about_data'>
-                <p className='about_description'> 
+                <p className='about_description font-mons'> 
                   I'm a <strong> Frontend Developer </strong> with knowledge and experience designing websites and online technologies.
                   I specialize in React. I can perform as a Frontend Developer (React, NestJs), I also have some project experience in Python Flask, Postgres, and SQL Alchemy.   
                   With over 2+ years experience in building professional websites for businesses, brands and individuals, I bring you closer to your customers with my developer + SEO skills.

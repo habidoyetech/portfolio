@@ -48,7 +48,7 @@ const Qualification = () => {
                        ''
                     }
                     <div>
-                        <h3 className="qualification__title">{data.degree}</h3>
+                        <h3 className="qualification__title -mb-2">{data.degree}</h3>
                         <span className="qualification__subtitle">{data.school}</span>
                         <div className="qualification__calender">
                             <i className="uil uil-calendar-alt"></i> {data.date}
@@ -93,7 +93,7 @@ const Qualification = () => {
                        ''
                     }
                     <div>
-                        <h3 className="qualification__title">{data.role}</h3>
+                        <h3 className="qualification__title  -mb-2">{data.role}</h3>
                         <span className="qualification__subtitle">{data.company}</span>
                         <div className="qualification__calender">
                             <i className="uil uil-calendar-alt"></i> {data.date}

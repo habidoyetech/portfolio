@@ -146,6 +146,7 @@ section {
 .section_title {
   font-size: var(--h1-font-size);
   color: #fff;
+  margin-bottom: -0.5rem;
 }
 
 .section_subtitle {
