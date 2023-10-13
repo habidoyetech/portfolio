@@ -56,7 +56,7 @@ const Navbar = ({scrollPosition}) => {
                       className={`nav__link ${link.idName} ${index===0? 'active': ''}`}
                       to={link.path}
                      smooth>
-                      <i className="uil uil-estate nav__icon hidden " />
+                      <i className={`uil ${link.icon} nav__icon hidden  `}/>
                      {link.name}
                     </HashLink>
                   </li>

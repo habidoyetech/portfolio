@@ -4,33 +4,39 @@ export const links = [
   {
       name: "Home",
       path: '/#home',
-      idName: 'home'
+      idName: 'home',
+      icon: 'uil-estate'
   },
   {
       name: "About",
       path: '/#about',
-      idName: 'about'
+      idName: 'about',
+      icon: 'uil-user'
   },
   {
     name: "Skills",
     path: '/#skills',
-    idName: 'skills'
+    idName: 'skills',
+    icon: 'uil-file-alt'
   },
   {
     name: "Qualification",
     path: "/#qualification",
-    idName: 'qualification'
+    idName: 'qualification',
+    icon: 'uil-briefcase-alt'
   },
   {
       name: "Portfolio",
       path: "/#portfolio",
-      idName: 'portfolio'
+      idName: 'portfolio',
+      icon: 'uil-scenery'
 
   },
   {
       name: "Contact",
       path: '/#contact',
-      idName: 'contact'
+      idName: 'contact',
+      icon: 'uil-message'
   }
 ]
 
