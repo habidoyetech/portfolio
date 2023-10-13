@@ -80,7 +80,38 @@
   color: var(--first-color);
 }
 
-@media screen and (max-width: 1024px) {
+.show-menu {
+  bottom: 0;
+}
+
+.nav__list {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+
+}
+
+/* .nav__link {
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+} */
+
+@media screen and (max-width: 767px) {
+  .nav__menu {
+    position: fixed;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--body-color);
+    padding: 2rem 1.5rem;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+    border-radius: 1.5rem 1.5rem 0 0;
+    transition: .3s;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .toggleBtn {
     display: flex;
     align-items: center;
@@ -96,40 +127,41 @@
   }
 
   .nav_links-container {
-    visibility: hidden;
     position: fixed;
-    left: 100%;
-    top: 65px;
-    width: 80vw;
-    height: fit-content;
-    transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--body-color);
+    padding: 2rem 1.5rem;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, .15);
+    border-radius: 1.5rem 1.5rem 0 0;
+    transition: .3s;
+    /* transition: transform 0.3s ease-in-out, visibility 0.3s ease-in-out, -webkit-transform 0.3s ease-in-out; */
   }
 
   .nav_links {
-    padding: 3rem 4rem;
-    width: 100%;
-    height: 100%;
-    display: block;
-    z-index: 2;
-    overflow-y: auto;
-    background: var(--first-color);
-    font-size: var(--h2-font-size);
-    border-bottom-left-radius: 2rem;
+    /* padding: 3rem 4rem; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
   }
 
-  .nav_links li {
-    padding: 1.5rem 0 .5rem 0;
-    color: var(--input-color);
-    border-bottom: 3px solid #fff;
-  }
 
   .open {
-    visibility: visible;
-    transform: translateX(-100%);
+    bottom: 0;
   }
 
-  .nav_links li a {
-    color: var(--white);
+  .uil {
+    display: block;
+  }
+
+  .nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    /* color: var(--title-color); */
+    font-weight: var(--font-medium);
   }
   
   

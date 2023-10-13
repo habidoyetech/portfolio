@@ -1,12 +1,12 @@
-.about {
+/* .about {
   width: 100vw;
-}
+} */
 
-.grid {
+/* .grid {
   display: grid;
   grid-template-columns: 1.5fr 1.5fr;
   gap: 2rem;
-}
+} */
 
 .about_section {
   padding: 3rem 0 6rem 0;

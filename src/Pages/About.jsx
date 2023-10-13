@@ -49,30 +49,9 @@ const About = () => {
               </div>
             </div>
             
-            {/* <div className='about_contact'>
-              <div className='social'>
-                <div className='phone contact'> <HiOutlinePhone />  <p>+2348100352118</p> </div>
-                <div className='email contact'> 
-                  <a href="mailto:abioyeabiodun97@gmail.com" target='_blank' rel='noreferrer'> <HiOutlineMail/> </a>  
-                  <a href="mailto:abioyeabiodun97@gmail.com" target='_blank' rel='noreferrer'> <p> abidoyeabiodun97@gmail.com </p> </a> 
-                </div>
-                <a href="https://www.linkedin.com/in/abiodun-abidoye-59b30a143/" target='_blank' rel='noreferrer'> <SiLinkedin className='social-logo' />  </a>
-                <a href="https://web.facebook.com/abiodunpeter.abidoye.94/" target='_blank' rel='noreferrer'> <FaFacebookSquare className='social-logo' />  </a>
-                <a href="https://twitter.com/i_am_habidoye" target='_blank' rel='noreferrer'> <FaTwitterSquare className='social-logo' />  </a>
-              </div>
-              <button className='cv_button'> <a target='_blank' rel='noreferrer' href='https://docs.google.com/document/d/1F8Q1SxH3Rv8xY8LVA0q7LZleYu40a_P7/edit?usp=share_link&ouid=104950997427632813401&rtpof=true&sd=true' >
-                <h3>GET MY RESUME    <BsArrowDownCircle/></h3> </a></button>
-            </div> */}
+            
           </div>
-          {/* <div className='about_container skills'>
-            {
-              skills.map((group, index) => {
-                return (
-                  <SkillCard key={index} skillGroup={group} />
-                )
-              })
-            }
-          </div>  */}
+          
         </div>
       </div>   
     </section>
