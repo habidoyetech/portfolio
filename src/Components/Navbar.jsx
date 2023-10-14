@@ -70,47 +70,7 @@ const Navbar = ({scrollPosition}) => {
           { isShowing?  <MdOutlineClose className={`${scrollPosition < 5 ? 'text-first-color': 'white-color'}`}/> : <HiOutlineMenuAlt1 className={`${scrollPosition < 5 ? 'text-first-color': 'white-color'}`} />}
         </button>
       </div>
-      {/* <div className="nav__menu show-menu grid justify-center" id="nav-menu">
-        <ul className="nav__list grid-cols-3 grid">
-          <li className="nav__item">
-            <a href="#home" className="nav__link active-link">
-              <i className="uil uil-estate nav__icon" /> 
-              <span>Home</span> 
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#about" className="nav__link">
-              <i className="uil uil-user nav__icon" /> 
-              <span>About</span> 
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#skills" className="nav__link">
-              <i className="uil uil-file-alt nav__icon" />
-              <span>Skills</span>
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#services" className="nav__link"> 
-              <i className="uil uil-briefcase-alt nav__icon" />
-              <span>Services</span>
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#portfolio" className="nav__link">
-              <i className="uil uil-scenery nav__icon" />
-              <span>Portfolio</span>
-            </a>
-          </li>
-          <li className="nav__item">
-            <a href="#contact" className="nav__link">
-              <i className="uil uil-message nav__icon" /> 
-              <span>Contact Me</span>
-            </a>
-          </li>
-        </ul>
-        <i className="uil uil-times nav__close" id="nav-close" />
-      </div> */}
+      
 
     </nav>
   )

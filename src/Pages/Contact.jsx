@@ -44,7 +44,7 @@ const Contact = () => {
   return (
     <section id='contact'>
         <h2 className='section_title'>Contact Me</h2>
-        <p className='section_subtitle'>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it</p>
+        <p className='section_subtitle'>If you have an application you are interested in developing, <br /> a feature that you need built or a project that needs coding. I’d love to help with it</p>
         <div className='contact_container container grid-contact'>
           <div>
             <div className='contact_information'>

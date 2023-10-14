@@ -56,7 +56,7 @@
 
 .contact_label {
   font-size: var(--small-font-size);
-  color: var(--title-color);
+  color: var(--body-color);
 }
 
 .contact_input {
