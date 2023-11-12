@@ -13,7 +13,7 @@ import Skills from './Pages/Skills';
 const App = () => {
 
   const [scrollPosition, setScrollPosition] = useState(0);
-
+  
   useEffect(() => {
 
     function handleScroll() {
