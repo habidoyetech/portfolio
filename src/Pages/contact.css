@@ -62,7 +62,7 @@
 .contact_input {
   width: 100%;
   background-color: var(--input-color);
-  color: var(--text-color);
+  color: black;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   border: none;

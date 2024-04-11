@@ -73,7 +73,7 @@ const Contact = () => {
             <div className='contact_inputs grid-contact'>
               <div className="contact_content">
                 <label htmlFor="" className='contact_label' >Name</label>
-                <input type="text" onChange={handleChange} className='contact_input' name='from_name' value={toSend.from_name} required/>
+                <input type="text" onChange={handleChange} className='contact_input text-gray-900' name='from_name' value={toSend.from_name} required/>
               </div>
               <div className="contact_content">
                 <label htmlFor="" className='contact_label'>Email</label>

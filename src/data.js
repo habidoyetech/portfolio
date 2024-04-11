@@ -260,7 +260,7 @@ export const education = [
   {
     degree: 'B.Tech in Physics Electronics',
     school: 'Federal University of Technology Akure',
-    date: 'Feb 2018 - In View'
+    date: 'Feb 2018 - Nov. 2023'
   },
   
   {
@@ -300,19 +300,29 @@ export const certification = [
 
 export const experience = [
   {
-    role: 'React Developer ',
-    company: 'Freelance',
-    date: 'Oct 2022 till date'
+    role: 'Frontend Engineer',
+    company: 'Swiftly Rescue',
+    date: 'Mar. 2024 - April 2024'
+  },
+  {
+    role: 'Frontend Engineer',
+    company: 'SwiftAdvert',
+    date: 'Nov. 2023 - Mar. 2024'
+  },
+  {
+    role: 'Frontend Engineer',
+    company: 'BlessingEdmonton',
+    date: 'July 2023 - Dec. 2023'
   },
   {
     role: 'Frontend Developer',
     company: 'Extramile Africa',
-    date: 'Jan 2023 - Mar 2023'
+    date: 'Jan 2023 - May. 2023'
   },
   {
     role: 'Intern Frontend Developer',
     company: 'Side Hustle',
-    date: 'Sept 2022 - Nov 2022'
+    date: 'Sept 2022 - Dec. 2022'
   }
 ]
 

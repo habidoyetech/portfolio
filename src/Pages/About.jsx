@@ -18,7 +18,7 @@ const About = () => {
               <div className='about_data'>
                 <p className='about_description font-mons'> 
                   I'm a <strong> Frontend Developer </strong> with knowledge and experience designing websites and online technologies.
-                  I specialize in React. I can perform as a Frontend Developer (React, NestJs), I also have some project experience in Python Flask, Postgres, and SQL Alchemy.   
+                  I specialize in React. I can perform as a Frontend Developer (React, NestJs), I also have some project experience in Python Flask, NodeJs, Postgres, and SQL Alchemy.   
                   With over 2+ years experience in building professional websites for businesses, brands and individuals, I bring you closer to your customers with my developer + SEO skills.
                   <br />
                   <br />
@@ -42,7 +42,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="about__buttons">
-                  <a href="https://drive.google.com/file/d/1El1L6Jix7hDoTh9bKtz0C0evjc3wxQQx/view?usp=sharing" download="" rel='noreferrer' className="button button--flex">Download CV
+                  <a href="https://drive.google.com/file/d/1RSMnM20zhd005204XFD9bAdeOhMSjO00/view?usp=sharing" download="" rel='noreferrer' className="button button--flex" _blank>Download CV
                     <i className="uil uil-download-alt button__icon"></i>
                   </a>
                 </div>

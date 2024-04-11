@@ -7,15 +7,13 @@ const Footer = () => {
   return (
     <footer id='footer'>
       <div className="footer_bg">
-        <div className="footer__container container grid">
+        <div className="footer__container container flex md:flex-row flex-col items-center justify-between">
           <div>
             <h1 className="footer__title font-semibold font-mons">Abiodun</h1>
-            <span className="footer__subtitle">Creative web developer</span>
+            <span className="footer__subtitle">Creative Frontend Engineer</span>
           </div>
-          <ul className="footer__links">
-            <li>
-              <a href="#services" className="footer__link">Services</a>
-            </li>
+          <ul className="footer__links hidden lg:flex">
+            
             <li>
               <a href="#portfolio" className="footer__link">Portfolio</a>
             </li>
@@ -23,7 +21,7 @@ const Footer = () => {
               <a href="#contact" className="footer__link">Contact</a>
             </li>
           </ul>
-          <div className="footer__socials">
+          <div className="flex ">
             <a href="https://facebook.com/" target="_blank" className="footer__social"  rel="noreferrer">
               <i className="uil uil-facebook-f" />
             </a>
@@ -35,7 +33,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <p className="footer__copy">© <a href="https://wa.me/+2348100352118"> Abiodun Abidoye.</a> All right reserved.</p>
+        <p className="footer__copy py-2">© <a href="https://wa.me/+2348100352118"> Abiodun Abidoye.</a> All right reserved.</p>
 
 
        

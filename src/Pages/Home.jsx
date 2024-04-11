@@ -60,11 +60,11 @@ const Home = () => {
             <h2 className='home__title inline font-semibold font-mons'>Hello, I'm Abiodun</h2>
             <h5 className='home__subtitle font-mons'>I'm a creative
               {screenWidth < 895 && screenWidth > 0 ? <br />: '' }
-              <TypeWriter text=' Frontend Developer' delay={200} />
+              <TypeWriter text=' Frontend Engineer' delay={200} />
               <span className='blink'>|</span>
             </h5>
             <p className='font-mons'>
-              I have knowledge and experience designing websites and online technologies. I specialize in React.
+              I have knowledge and experience designing Web Applications and online technologies. I specialize in React.
             </p>
             <a href="http://wa.me/2348100352118" target="_blank" className="button button-flex" rel='noreferrer'> Hire Me
 							<i className="uil uil-message button__icon"></i>
