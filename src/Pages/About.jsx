@@ -42,7 +42,7 @@ const About = () => {
                   </div>
                 </div>
                 <div className="about__buttons">
-                  <a href="https://drive.google.com/file/d/1RSMnM20zhd005204XFD9bAdeOhMSjO00/view?usp=sharing" download="" rel='noreferrer' className="button button--flex" _blank>Download CV
+                  <a href="https://drive.google.com/file/d/1LvNDylN3YgmW92mn9JCE9o94M4I6Kjf2/view?usp=sharing" download="" rel='noreferrer' className="button button--flex" _blank>Download CV
                     <i className="uil uil-download-alt button__icon"></i>
                   </a>
                 </div>
